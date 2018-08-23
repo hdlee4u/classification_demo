@@ -11,7 +11,8 @@ This file concerns credit card applications. All attribute names and values have
 This dataset is interesting because there is a good mix of attributes -- continuous, nominal with small numbers of values, and nominal with larger numbers of values. There are also a few missing values.
 
 ### Attribute Information:
-A1: b, a. \n
+A1: b, a.
+
 A2: continuous. 
 A3: continuous. 
 A4: u, y, l, t. 
@@ -33,6 +34,7 @@ A16: +,- (class attribute)
 https://hub.docker.com/r/hdlee2u/gpdb-analytics/
 
 CentOS : release 7.4
+
 Greenplum Database : ver 5.10.2
 MADlib : ver 1.15
 PL/R : 2.3.2
