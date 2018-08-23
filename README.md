@@ -48,28 +48,28 @@ $ docker run -i -d -p 5432:5432 -p 28080:28080 --name gpdb-ds --hostname mdw hdl
 $ docker ps -a
 
 ### (3) To Start Greenplum Database and Use psql
-$ docker exec -it gpdb-ds /bin/bash . 
-[root@mdw /]# su - gpadmin . 
-[gpadmin@mdw ~]$ gpstart -a . 
-[gpadmin@mdw ~]$ psql . 
-psql (8.3.23) . 
-Type "help" for help.  
+$ docker exec -it gpdb-ds /bin/bash  
+[root@mdw /]# su - gpadmin  
+[gpadmin@mdw ~]$ gpstart -a  
+[gpadmin@mdw ~]$ psql  
+psql (8.3.23)  
+Type "help" for help  
   
-gpadmin=# \dn . 
-List of schemas . 
-Name | Owner . 
+gpadmin=# \dn  
+List of schemas  
+Name | Owner  
 --------------------+---------  
-gp_toolkit | gpadmin . 
-information_schema | gpadmin . 
-madlib | gpadmin . 
-pg_aoseg | gpadmin . 
-pg_bitmapindex | gpadmin . 
-pg_catalog | gpadmin . 
-pg_toast | gpadmin . 
-public | gpadmin . 
-(8 rows) . 
+gp_toolkit | gpadmin  
+information_schema | gpadmin  
+madlib | gpadmin  
+pg_aoseg | gpadmin  
+pg_bitmapindex | gpadmin  
+pg_catalog | gpadmin  
+pg_toast | gpadmin  
+public | gpadmin  
+(8 rows)  
   
-gpadmin=# \q . 
+gpadmin=# \q  
 
 ### (4) PGAdmin IV configuration for SQL query
 Host : localhost  
