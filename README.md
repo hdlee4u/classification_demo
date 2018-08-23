@@ -72,13 +72,13 @@ public | gpadmin .
 gpadmin=# \q . 
 
 ### (4) PGAdmin IV configuration for SQL query
-Host : localhost . 
-Port : 5432 . 
-Maintenance DB : gpadmin . 
-Username : gpadmin . 
-Password : pivotal . 
-Group: Servers . 
-Ternel port: 22 . 
+Host : localhost  
+Port : 5432  
+Maintenance DB : gpadmin  
+Username : gpadmin  
+Password : pivotal  
+Group: Servers  
+Ternel port: 22  
   
 PGAdmin 4 download: https://www.pgadmin.org/download/ . 
 
