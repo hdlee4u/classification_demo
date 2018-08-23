@@ -11,7 +11,7 @@ This file concerns credit card applications. All attribute names and values have
 This dataset is interesting because there is a good mix of attributes -- continuous, nominal with small numbers of values, and nominal with larger numbers of values. There are also a few missing values.
 
 ### Attribute Information:
-A1: b, a. <\n>
+A1: b, a. \n
 A2: continuous. 
 A3: continuous. 
 A4: u, y, l, t. 
