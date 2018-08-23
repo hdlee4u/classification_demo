@@ -32,12 +32,12 @@ A16: +,- (class attribute)
 ## Docker image of Greenplum Database on CentOS with Pivotal Data Science Tool Kits, such as MADlib, PL/R and PL/Python
 https://hub.docker.com/r/hdlee2u/gpdb-analytics/
 
-CentOS : release 7.4  
-Greenplum Database : ver 5.10.2 . 
-MADlib : ver 1.15 . 
-PL/R : 2.3.2 . 
-DataScienceR : 1.0.1 . 
-DataSciencePython : 1.1.1 . 
+CentOS : release 7.4
+Greenplum Database : ver 5.10.2  
+MADlib : ver 1.15  
+PL/R : 2.3.2  
+DataScienceR : 1.0.1  
+DataSciencePython : 1.1.1  
 
 ### (1) Docker Image Pull
 $ docker pull hdlee2u/gpdb-analytics
